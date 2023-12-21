@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$id": "http://example.com/input-words.schema.json",
+  "title": "InputWords",
+  "properties": {
+    "inputWords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "maxItems": 100
+    }
+  },
+  "required": ["inputWords"]
+}

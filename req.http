@@ -1,0 +1,2 @@
+curl -X POST https://xit645865j.execute-api.us-east-1.amazonaws.com/ \
+  --data '{ "inputWords": ["table", "sleep"] }'
