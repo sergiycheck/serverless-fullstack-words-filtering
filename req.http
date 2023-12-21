@@ -1,2 +1,7 @@
-curl -X POST https://xit645865j.execute-api.us-east-1.amazonaws.com/ \
+### valid request
+curl -X POST https://5df2woqeqc.execute-api.us-east-1.amazonaws.com/dev/ \
   --data '{ "inputWords": ["table", "sleep"] }'
+
+### invalid request
+curl -X POST https://5df2woqeqc.execute-api.us-east-1.amazonaws.com/dev/ \
+  --data '{ "inputWords": ["table", "sleep", "invalid"] }'

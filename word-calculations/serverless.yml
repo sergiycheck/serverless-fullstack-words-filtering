@@ -12,9 +12,9 @@ functions:
     handler: handler.filterWordsByTypeHandler
     events:
       - http:
-          cors: true
           path: /
           method: post
+          cors: true
           request:
             schemas:
               application/json:
