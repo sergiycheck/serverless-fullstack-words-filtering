@@ -11,7 +11,7 @@ functions:
   filterWordsByTypeHandler:
     handler: handler.filterWordsByTypeHandler
     events:
-      - httpApi:
+      - http:
           cors: true
           path: /
           method: post
